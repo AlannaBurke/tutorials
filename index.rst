@@ -559,6 +559,27 @@ Welcome to PyTorch Tutorials
    :tags: Model-Optimization
 
 .. customcarditem::
+   :header: Getting Started with Triton
+   :card_description: Take your first steps in GPU programming with Triton by writing and launching a simple kernel.
+   :image: _static/img/thumbnails/cropped/generic-pytorch-logo.png
+   :link: intermediate/triton_getting_started.html
+   :tags: Model-Optimization
+
+.. customcarditem::
+   :header: First Triton Kernel: Vector Addition
+   :card_description: Write a complete vector addition kernel in Triton, verify numerics, and benchmark performance.
+   :image: _static/img/thumbnails/cropped/generic-pytorch-logo.png
+   :link: intermediate/triton_first_kernel_tutorial.html
+   :tags: Model-Optimization
+
+.. customcarditem::
+   :header: Writing a Triton Softmax Kernel
+   :card_description: Implement a custom softmax kernel in Triton and benchmark it against PyTorch.
+   :image: _static/img/thumbnails/cropped/generic-pytorch-logo.png
+   :link: intermediate/triton_softmax_tutorial.html
+   :tags: Model-Optimization
+
+.. customcarditem::
    :header: (beta) Implementing High-Performance Transformers with SCALED DOT PRODUCT ATTENTION
    :card_description: This tutorial explores the new torch.nn.functional.scaled_dot_product_attention and how it can be used to construct Transformer components.
    :image: _static/img/thumbnails/cropped/pytorch-logo.png

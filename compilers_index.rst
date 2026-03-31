@@ -96,6 +96,28 @@ control, as well as third-party backend solutions.
    :link: recipes/torch_compile_user_defined_triton_kernel_tutorial.html
    :tags: Model-Optimization,torch.compile
 
+.. Triton
+.. customcarditem::
+   :header: Getting Started with Triton
+   :card_description: Take your first steps in GPU programming with Triton by writing and launching a simple kernel.
+   :image: _static/img/thumbnails/cropped/generic-pytorch-logo.png
+   :link: intermediate/triton_getting_started.html
+   :tags: Model-Optimization,CUDA
+
+.. customcarditem::
+   :header: First Triton Kernel: Vector Addition
+   :card_description: Write a complete vector addition kernel in Triton, verify numerics, and benchmark performance.
+   :image: _static/img/thumbnails/cropped/generic-pytorch-logo.png
+   :link: intermediate/triton_first_kernel_tutorial.html
+   :tags: Model-Optimization,CUDA
+
+.. customcarditem::
+   :header: Writing a Triton Softmax Kernel
+   :card_description: Implement a custom softmax kernel in Triton and benchmark it against PyTorch.
+   :image: _static/img/thumbnails/cropped/generic-pytorch-logo.png
+   :link: intermediate/triton_softmax_tutorial.html
+   :tags: Model-Optimization,CUDA
+
 .. customcarditem::
    :header: Compile Time Caching in ``torch.compile``
    :card_description: Learn how to use compile time caching in ``torch.compile``
@@ -194,6 +216,15 @@ control, as well as third-party backend solutions.
    recipes/torch_compile_user_defined_triton_kernel_tutorial
    recipes/torch_compile_caching_tutorial
    recipes/regional_compilation
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Triton
+
+   intermediate/triton_getting_started
+   intermediate/triton_first_kernel_tutorial
+   intermediate/triton_softmax_tutorial
 
 .. toctree::
    :maxdepth: 2
